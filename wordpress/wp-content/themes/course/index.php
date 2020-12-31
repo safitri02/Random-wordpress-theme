@@ -135,6 +135,40 @@
     </div>
 </div>
 
+<!-- Blog -->
+<div class="blog mt-5">
+    <div class="container">
+        <p style="text-align:center; font-size:25px;" class="mb-3">Blog</p>
+        <div class="row">
+ 
+        <?php  
+           $query = new WP_Query([
+            'post_per_page' => 3,
+            'post_type' => 'post',
+            'post_status' => 'publish'
+        ]);
+
+        if($query->have_posts()){
+            while($query->have_posts()){
+                $query->the_post(); ?>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-title"> <a href="<?= the_permalink(); ?>"><h3><?= the_title() ?></h3></a></div>
+                    <div class="card-body">
+                        <p><?= substr(get_the_excerpt(), 0, 200); ?>...<a href="<?= the_permalink() ?>">Lanjut baca</a></p>
+                    </div>
+                </div>
+            </div>
+            <?php
+            } //endwhile
+        } //endif
+      
+    ?>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="ilustrasi mt-5">
         <div class="col-md-12">

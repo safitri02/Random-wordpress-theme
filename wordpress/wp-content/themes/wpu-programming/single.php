@@ -1,5 +1,5 @@
 <?php get_header();
-the_post() ?>
+the_post(); ?>
 <div class="detail mt-5">
     <div class="container">
         <div class="row">
