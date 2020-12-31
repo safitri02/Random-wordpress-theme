@@ -3,7 +3,7 @@
    padding: 15px 20px;
    width: 100%;
    text-align: center;
-   margin-top: -35px;
+   /* margin-top: -35px; */
 }
 
 .navbar a{
@@ -24,6 +24,7 @@
 span{
     color: #065757;
 }
+
 .header{
     display:flex;
     flex-direction: row;
@@ -116,7 +117,7 @@ span{
 
 .benefit button:hover{
     background-color: #ffffff;
-    border: 2px solid #065757;
+    border: 1px solid #065757;
     color: #065757;
 }
 
@@ -145,7 +146,7 @@ span{
 
 .course button:hover{
     background-color: #ffffff;
-    border: 2px solid #065757;
+    border: 1px solid #065757;
     color: #065757;
 }
 
