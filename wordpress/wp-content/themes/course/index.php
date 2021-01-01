@@ -18,22 +18,22 @@
 <div class="row mt-3">
     <div class="col-md-4">
         <div class="card mb-3">
-            <h3 class="text-center">Tutorial Resources</h3>
-            <p>Nikmati berbagai macam tutorial gratis disini yang dapat kalian tonton sepuasnya</p>
+            <h3 class="text-center" style="color: #ffffff;">Tutorial Resources</h3>
+            <p style="color: #ffffff;">Nikmati berbagai macam tutorial gratis disini yang dapat kalian tonton sepuasnya</p>
             <img style="width:250px" src="<?= get_bloginfo('stylesheet_directory') ?>/asset/img/Saly-24.png" alt="">
         </div>
     </div>
     <div class="col-md-4">
         <div class="card mb-3">
-            <h3 class="text-center">Tutorial Resources</h3>
-            <p>Nikmati berbagai macam tutorial gratis disini yang dapat kalian tonton sepuasnya</p>
+            <h3 class="text-center" style="color: #ffffff;">Tutorial Resources</h3>
+            <p style="color: #ffffff;">Nikmati berbagai macam tutorial gratis disini yang dapat kalian tonton sepuasnya</p>
             <img style="width:250px" src="<?= get_bloginfo('stylesheet_directory') ?>/asset/img/Saly-8.png" alt="">
         </div>
     </div>
     <div class="col-md-4">
         <div class="card mb-3">
-            <h3 class="text-center">Tutorial Resources</h3>
-            <p>Nikmati berbagai macam tutorial gratis disini yang dapat kalian tonton sepuasnya</p>
+            <h3 class="text-center" style="color: #ffffff;">Tutorial Resources</h3>
+            <p style="color: #ffffff;">Nikmati berbagai macam tutorial gratis disini yang dapat kalian tonton sepuasnya</p>
             <img style="width:250px" src="<?= get_bloginfo('stylesheet_directory') ?>/asset/img/Saly-19.png" alt="">
         </div>
     </div>
@@ -105,8 +105,8 @@
             <div class="col-md-6">
                 <div class="kata mt-3">
                 <img style="opacity:0.6;" src="<?= get_bloginfo('stylesheet_directory') ?>/asset/img/petik.png" alt="">
-                <h1>Apa kata mereka tentang kami?</h1>
-                <p style="margin-left:70px;">Pendapat mereka terhadap course ini</p>
+                <h1 style="color:#ffffff;">Apa kata mereka tentang kami?</h1>
+                <p style="margin-left:70px; color:#ffffff;">Pendapat mereka terhadap course ini</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -172,8 +172,7 @@
 <div class="container">
     <div class="ilustrasi mt-5">
         <div class="col-md-12">
-            <p>h</p>
-            <h1>SALY - 3D ILLUSTRATION PACK</h1>
+            <h1 style="color:#ffffff; padding:20px 0;">SALY - 3D ILLUSTRATION PACK</h1>
             <img src="<?= get_bloginfo('stylesheet_directory') ?>/asset/img/Thumbnail1.png" alt="Sally ilustration">
         </div>
     </div>
@@ -183,7 +182,7 @@
 <div class="gabung mt-5 mb-5">
     <div class="row content-center">
         <div class="col-md-5">
-            <h3 style="margin-top:8px;">Gabung grup resophemera untuk ikut ramein!</h3>
+            <h3 style="margin-top:8px; color:#ffffff;">Gabung grup resophemera untuk ikut ramein!</h3>
         </div>
         <div class="col-md-5">
         <button class="btn" style="margin-top:10px;">Gabung Grup</button>

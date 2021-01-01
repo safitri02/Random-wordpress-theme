@@ -80,8 +80,8 @@
     font-size:14px;
 }
 
-
 .pilihan .card{
+    padding: 20px;
     text-align: center;
     justify-content: center;
     margin:20px;
@@ -182,10 +182,16 @@
 
 .footer{
     background-color: #0B0D17;
-    justify-content: center;
-    text-align: center;
     padding: 10px;
 }
+
+/* .footer a{
+    float: left;
+    margin: 10px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+} */
 
 .blog .card{
     margin: 20px;
